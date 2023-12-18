@@ -1,0 +1,37 @@
+header {
+    width: 100%;
+    font-family: 'VT323', monospace;
+    margin: 20px 0;
+    position: fixed;
+    top: 0;
+}
+ul.Header{
+    background-color: var(--Bg-Transport50);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+}
+ul.HeaderResp{display: none;}
+header a {
+    color: var(--ColorFonts);
+    font-size: var(--FontSizeS);
+    transition:var(--transitionNormal);
+    padding: 15px 20px;
+
+}
+header a:hover{
+    font-size: var(--FontSizeSp);
+    
+}
+#btnLightMod {
+    background: none;
+    color: var(--ColorFonts);
+    font-size: var(--FontSizeS);
+    transition:var(--transitionNormal);
+    border: none;
+    font-family: 'VT323', monospace;
+}
+#btnLightMod:hover{
+    font-size: var(--FontSizeSp);
+}
